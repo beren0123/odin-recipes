@@ -1,0 +1,35 @@
+/* Style sheet for recipe website */
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.list-ul {
+    background-color: hsl(0, 0%, 0%);
+    color: #000000;    
+}
+
+#curry,
+#carbonara,
+#pizza{
+    background-color: white;
+}
+
+.title{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.description {
+    color: rgb(255,255,255);
+    background-color: black;
+}
+
+.italised {
+    color: rgb(255,0,0);
+}
+
+.italised.carbonara {
+    color: rgb(0,0,255);
+}
